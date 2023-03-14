@@ -1,0 +1,205 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Genos:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{    
+    background-color: #96eeaa64;
+    text-align: center;
+    margin: auto;
+    padding: 0px;
+}
+
+header{
+    font-family: 'Genos', Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to bottom, #3DB859, #206430);
+    margin: 0px;
+    padding: 0px;
+}
+
+header > h1{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: rgb(221, 236, 250);
+    text-shadow: 1px 1px 1px black;
+    font-size: 49px;
+}
+
+header > p{
+    text-align: center;
+    font-size: 24px;
+    color: rgb(221, 236, 250);
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+header > nav{
+    padding: 10px;
+    text-align: left;
+}
+
+header > nav > a{
+    color: rgb(221, 236, 250);
+    font-weight: bold;   
+    text-decoration: none;
+    font-size: 16px;
+    padding: 2px 7px;
+}
+
+header > nav > a:hover{
+    background-color: #1f612f;
+    border-radius: 10px 0px;
+}
+
+main{
+    display: block;
+    padding: 0em 3em;
+    margin: 0px;
+    margin-bottom: 40px;
+}
+
+main > article > section > h1{
+    text-align: left;
+}
+
+main > article > section > h2{
+    text-align: left;
+}
+
+article{
+    margin: auto;
+    width: auto;
+    background-color: white;
+    margin: 0em 1em 0em 2em;
+    /*margin: 0px 150px 0px 150px;*/
+    padding: 10px;
+    border-radius:0px 0px 10px 10px;
+    box-shadow: 1px 1px 4px rgba(0, 100, 0, 0.615), -1px 0px 4px rgba(0, 100, 0, 0.615);
+}
+
+h1#titulo-principal {
+    margin-block-start: 0px;
+    margin: 0%;
+    padding: 20px 0px;
+    color: #1f612f;
+    text-shadow:  1px 1px 1px #1f623096;
+    font-size: 40px;
+    font-family: 'Genos', Arial, Helvetica, sans-serif;
+}
+
+.subtitulo{
+    color: #1f612f;
+    text-shadow:  1px 1px 1px #1f623096;
+    font-size: 27px;
+    font-family: 'Genos', Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, #96eeaa64, white);
+    padding-left: 4px;
+}
+
+img{
+    display: flex;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    margin: auto;  
+}
+
+picture{
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    margin: auto;
+}
+
+p{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    margin: 0px;
+    padding: 4px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.link{
+    color: black;
+    text-decoration: none;
+    background-color: #75c98964;
+    padding: 1px 1px 1px 1px;
+}
+
+section#video{
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 29.0625%; 
+}
+
+
+iframe{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+section#outros-assuntos-geral {
+    box-shadow: 1px 1px 4px #2e4a3587, -1px -1px 4px #2e4a3587;
+    border-radius:10px 10px 10px 10px;
+    background-color: #96eeaa64;
+}
+
+section#outros-assuntos{
+    display: inline-block;
+    margin: 0px 0px 0px 0px;
+    padding: 10px 0px;
+    
+}
+
+div#assuntos-relacionados{
+    display: flex;
+    text-align: left;
+    margin: auto;
+}
+
+p#aprendermais{
+    box-shadow: 1px 1px 4px #2e4a3587, -1px -1px 4px #2e4a3587;
+    border-radius:10px 10px 0px 0px;
+    background-color: #1f612f;
+    color: #ffffff;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+div#lista1{
+    display: inline;
+    margin: auto;
+}
+
+div#lista2{
+    display: inline;
+    margin: auto;
+}
+
+p#conclusao{
+    padding: 20px 0px;
+}
+
+footer{
+    background-color: rgba(24, 24, 24, 0.968);
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    padding: 9px auto;
+    color: white;
+    box-shadow: 1px 1px 1px black, -1px 0px 1px black;
+}
+p#rodape {
+    text-align: center;
+}
