@@ -5,15 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Uso de iframes</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe#tela {
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
 </head>
 <body>
     <h1>Faça uma escolha</h1>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias praesentium eos asperiores esse ut hic nisi consequatur repudiandae consequuntur velit aspernatur aut rem, dolores facilis distinctio laudantium earum? Aperiam, inventore!</p>
     <ul>
-        <li><a href="paginas-extras/pag001.html" target="_blank">Primeira página</a></li>
-        <li><a href=""></a>Segunda página</li>
-        <li><a href=""></a>Terceira página</li>
+        <li><a href="paginas-extras/pag001.html" target="frame">Primeira página</a></li>
+        <li><a href="paginas-extras/pag002.html" target="frame">Segunda página</a></li>
+        <li><a href="paginas-extras/pag003.html" target="frame">Terceira página</a></li>
     </ul>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui totam minima debitis, eveniet corporis, voluptatem reprehenderit suscipit quas reiciendis illum natus quasi dolore pariatur dolorum in? Delectus dignissimos iusto harum?</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui totam minima debitis, eveniet corporis, voluptatem reprehenderit suscipit quas reiciendis illum natus quasi dolore pariatur dolorum in? Delectus dignissimos iusto harum? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt, natus dolorum. Earum consequuntur accusantium sequi adipisci hic quam deleniti obcaecati, repellendus ipsum commodi iusto atque sit minus dignissimos unde porro!</p>
+
+    <iframe id="tela" name="frame" srcdoc="<h1>Escolha uma das opções acima</h1> <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae tenetur consectetur eligendi aliquid odio tempore ipsa, rerum eum assumenda nihil vitae aperiam facere? Nobis unde soluta veniam, autem deserunt inventore. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum architecto perspiciatis, odit minus neque quaerat necessitatibus cum dicta et quasi unde magnam iste. Inventore, sunt! Iusto veritatis ullam aliquid ad. Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus ut amet, molestiae fugit facilis aut aliquam. Odit minima accusantium eos, libero facilis repellendus numquam excepturi animi sequi ratione fuga quibusdam.</p> <img src='imagens/gato001.jpeg' alt='Gato'></iframe>" ><p>Infelizmente seu navegador não é compatível</p></iframe>
+  
 </body>
 </html>
